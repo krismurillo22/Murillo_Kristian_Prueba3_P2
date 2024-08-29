@@ -66,7 +66,7 @@ public class ControlEmpleado {
                 lea.nextLine();
                 System.out.println("Por favor ingrese una opcion correcta");
             }catch(IOException e){
-                System.out.println("Error: "+e.getMessage());
+                e.printStackTrace();
             }
              
         }while(opcion!=5);
